@@ -1,0 +1,11 @@
+framework module RavelinEncrypt {
+  umbrella header "RavelinEncrypt.h"
+
+  export *
+  module * { export * }
+}
+
+module RavelinEncrypt.Swift {
+    header "RavelinEncrypt-Swift.h"
+    requires objc
+}
