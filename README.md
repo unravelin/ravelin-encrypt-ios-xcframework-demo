@@ -26,7 +26,7 @@ a package manifest is available at:
 
 available from version 1.1.0
 
-<img width="487" alt="RavelinCore-SPM" src="https://user-images.githubusercontent.com/729131/121674900-8cc67700-caaa-11eb-8b07-00a3876ec133.png">
+<img width="497" alt="RavelinEncrypt-Swift-Package-Manager" src="https://user-images.githubusercontent.com/729131/126134013-41d23f63-7c38-42bc-9570-2e95a8383079.png">
 
 ## Usage
 
