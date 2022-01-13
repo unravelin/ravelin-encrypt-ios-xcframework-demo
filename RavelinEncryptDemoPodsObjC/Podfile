@@ -6,7 +6,7 @@ target 'RavelinEncryptDemoPodsObjC' do
   use_frameworks!
 
   # Pods for RavelinCoreDemoPodsObjC
-  pod 'RavelinCore', '1.1.0', :source => 'https://github.com/unravelin/Specs.git'
-  pod 'RavelinEncrypt', '1.1.0', :source => 'https://github.com/unravelin/Specs.git'
+  pod 'RavelinCore', '1.1.1', :source => 'https://github.com/unravelin/Specs.git'
+  pod 'RavelinEncrypt', '1.1.1', :source => 'https://github.com/unravelin/Specs.git'
 
 end

@@ -30,20 +30,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		87DDE96681FC64289F1E533C23DB975E /* Pods-RavelinEncryptDemoPodsObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C438EA98E8393D79425BFCEFF1348C /* Pods-RavelinEncryptDemoPodsObjC-dummy.m */; };
-		C8C821575A1AC86456C6274ECF74A5B1 /* Pods-RavelinEncryptDemoPodsObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5859DED45936BB52BEF049008A622D2F /* Pods-RavelinEncryptDemoPodsObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E09B5743E1F2F117F763D9B8FA8329F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67AEACBA72EACDEA6600F0894A4A80FC /* Pods-RavelinEncryptDemoPodsObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5859DED45936BB52BEF049008A622D2F /* Pods-RavelinEncryptDemoPodsObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E5F5BFCEA39B88A4EAB87C26CE4A24E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		93014792E0FC3BF15D40FA04EE5B109D /* Pods-RavelinEncryptDemoPodsObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C438EA98E8393D79425BFCEFF1348C /* Pods-RavelinEncryptDemoPodsObjC-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DDC1298B53CC9DE0656897345498ECE /* PBXContainerItemProxy */ = {
+		8E5F2BD28A8507D32BFE1C5E2A2359C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 038582D60D92DC1C701655CA5023828A;
 			remoteInfo = RavelinEncrypt;
 		};
-		FA994B23CC263CBC90844D3378E7DEE4 /* PBXContainerItemProxy */ = {
+		A2FA05C84C0DA4ED9D194BDA4E0EF2B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -65,7 +65,7 @@
 		757528197F283B2DE9CF8D4E994B011E /* RavelinEncrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RavelinEncrypt.release.xcconfig; sourceTree = "<group>"; };
 		7E5E060965DAE1CF7A1D7F3DF7080106 /* Pods-RavelinEncryptDemoPodsObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RavelinEncryptDemoPodsObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FDC597AF8FD69D19B2AAE4146B11066 /* Pods_RavelinEncryptDemoPodsObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RavelinEncryptDemoPodsObjC.framework; path = "Pods-RavelinEncryptDemoPodsObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDC597AF8FD69D19B2AAE4146B11066 /* Pods-RavelinEncryptDemoPodsObjC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RavelinEncryptDemoPodsObjC"; path = Pods_RavelinEncryptDemoPodsObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3440BD7F2DBE7AB7A9D9F96E0BB6751 /* Pods-RavelinEncryptDemoPodsObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RavelinEncryptDemoPodsObjC.modulemap"; sourceTree = "<group>"; };
 		B62F0F1D21BD7EDB27EC8D796668BE02 /* RavelinEncrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RavelinEncrypt.debug.xcconfig; sourceTree = "<group>"; };
 		BEE6DF1402FEC48E8449E02514EBE05E /* RavelinCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RavelinCore.release.xcconfig; sourceTree = "<group>"; };
@@ -76,11 +76,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B634591D0DC1AD75DBEB21432E27F59 /* Frameworks */ = {
+		74E08B7A54CE3FC94021F24FA7EB9875 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09B5743E1F2F117F763D9B8FA8329F4 /* Foundation.framework in Frameworks */,
+				7E5F5BFCEA39B88A4EAB87C26CE4A24E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +101,6 @@
 				70CF2A69ADA2DE7E2502A932B31F321C /* RavelinCore.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		483B9B6D7DD049CC763AFC9E797F96C6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9FDC597AF8FD69D19B2AAE4146B11066 /* Pods_RavelinEncryptDemoPodsObjC.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5497A83D45C93717BC22AA99D1EC7D75 /* RavelinCore */ = {
@@ -201,9 +193,17 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BA67F71B8C335AB17898BB1E7AA24BF1 /* Pods */,
-				483B9B6D7DD049CC763AFC9E797F96C6 /* Products */,
+				D0C8430C19C64317C62DE0EE76F35772 /* Products */,
 				06F93E1770D4E93617B8ACD909EA6AF3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0C8430C19C64317C62DE0EE76F35772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC597AF8FD69D19B2AAE4146B11066 /* Pods-RavelinEncryptDemoPodsObjC */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -217,11 +217,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		99F2B8172612E855A4A86EC5B20E2F6B /* Headers */ = {
+		21819F53212C2BD5D09BEE9EF177224D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C821575A1AC86456C6274ECF74A5B1 /* Pods-RavelinEncryptDemoPodsObjC-umbrella.h in Headers */,
+				67AEACBA72EACDEA6600F0894A4A80FC /* Pods-RavelinEncryptDemoPodsObjC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,22 +230,22 @@
 /* Begin PBXNativeTarget section */
 		8E02F3BD3F5288FE0CBD346D698CECAD /* Pods-RavelinEncryptDemoPodsObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B38F74E9BC3EBC34A4BEB620191404D1 /* Build configuration list for PBXNativeTarget "Pods-RavelinEncryptDemoPodsObjC" */;
+			buildConfigurationList = 7AD64C4C6231D8BAD409C03A8539AA78 /* Build configuration list for PBXNativeTarget "Pods-RavelinEncryptDemoPodsObjC" */;
 			buildPhases = (
-				99F2B8172612E855A4A86EC5B20E2F6B /* Headers */,
-				93959FDEFBB4C3159B3E1BA7DC220443 /* Sources */,
-				2B634591D0DC1AD75DBEB21432E27F59 /* Frameworks */,
-				9D4E1EB15C40B91F5E4A899ED9C2BB15 /* Resources */,
+				21819F53212C2BD5D09BEE9EF177224D /* Headers */,
+				445FC663901D1D6677405FC5B7087383 /* Sources */,
+				74E08B7A54CE3FC94021F24FA7EB9875 /* Frameworks */,
+				7794224CD043B6D506D7A9A9DD025AF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC3F9D726303B295F9FEC0C4A528A78F /* PBXTargetDependency */,
-				A60E64DF69BA0D19FEE6EBF605CAF056 /* PBXTargetDependency */,
+				B1DBB9A8E9B5AA8E9BBBA5E2BA55AC30 /* PBXTargetDependency */,
+				7AEFCE3A992478AECC1916518E7D9394 /* PBXTargetDependency */,
 			);
 			name = "Pods-RavelinEncryptDemoPodsObjC";
-			productName = "Pods-RavelinEncryptDemoPodsObjC";
-			productReference = 9FDC597AF8FD69D19B2AAE4146B11066 /* Pods_RavelinEncryptDemoPodsObjC.framework */;
+			productName = Pods_RavelinEncryptDemoPodsObjC;
+			productReference = 9FDC597AF8FD69D19B2AAE4146B11066 /* Pods-RavelinEncryptDemoPodsObjC */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -254,19 +254,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 483B9B6D7DD049CC763AFC9E797F96C6 /* Products */;
+			productRefGroup = D0C8430C19C64317C62DE0EE76F35772 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -278,7 +278,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D4E1EB15C40B91F5E4A899ED9C2BB15 /* Resources */ = {
+		7794224CD043B6D506D7A9A9DD025AF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,28 +325,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93959FDEFBB4C3159B3E1BA7DC220443 /* Sources */ = {
+		445FC663901D1D6677405FC5B7087383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87DDE96681FC64289F1E533C23DB975E /* Pods-RavelinEncryptDemoPodsObjC-dummy.m in Sources */,
+				93014792E0FC3BF15D40FA04EE5B109D /* Pods-RavelinEncryptDemoPodsObjC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A60E64DF69BA0D19FEE6EBF605CAF056 /* PBXTargetDependency */ = {
+		7AEFCE3A992478AECC1916518E7D9394 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RavelinEncrypt;
 			target = 038582D60D92DC1C701655CA5023828A /* RavelinEncrypt */;
-			targetProxy = 1DDC1298B53CC9DE0656897345498ECE /* PBXContainerItemProxy */;
+			targetProxy = 8E5F2BD28A8507D32BFE1C5E2A2359C3 /* PBXContainerItemProxy */;
 		};
-		AC3F9D726303B295F9FEC0C4A528A78F /* PBXTargetDependency */ = {
+		B1DBB9A8E9B5AA8E9BBBA5E2BA55AC30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RavelinCore;
 			target = 87652F3AD4C531E8A1C6ED4B9F38C967 /* RavelinCore */;
-			targetProxy = FA994B23CC263CBC90844D3378E7DEE4 /* PBXContainerItemProxy */;
+			targetProxy = A2FA05C84C0DA4ED9D194BDA4E0EF2B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -367,9 +367,9 @@
 			};
 			name = Debug;
 		};
-		6BB513CF7CDC56DF892DD251C2D52629 /* Release */ = {
+		62DF6EBECF10BC41F85D7B4D6A747ACF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C90B55F6999D359948BDE55E40A2C4F /* Pods-RavelinEncryptDemoPodsObjC.release.xcconfig */;
+			baseConfigurationReference = D5A5452B9D9C54AD2A48B64EAB0AC353 /* Pods-RavelinEncryptDemoPodsObjC.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -399,11 +399,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -568,9 +567,26 @@
 			};
 			name = Release;
 		};
-		E50020A62B78E3505DAA99C90E5B4877 /* Debug */ = {
+		EC32E9FBCB34D6B3C5ECD6F47ED4EA46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A5452B9D9C54AD2A48B64EAB0AC353 /* Pods-RavelinEncryptDemoPodsObjC.debug.xcconfig */;
+			baseConfigurationReference = B62F0F1D21BD7EDB27EC8D796668BE02 /* RavelinEncrypt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB7515A83FACC654CA112C6B8EA295DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C90B55F6999D359948BDE55E40A2C4F /* Pods-RavelinEncryptDemoPodsObjC.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -600,27 +616,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		EC32E9FBCB34D6B3C5ECD6F47ED4EA46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B62F0F1D21BD7EDB27EC8D796668BE02 /* RavelinEncrypt.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -643,11 +643,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B38F74E9BC3EBC34A4BEB620191404D1 /* Build configuration list for PBXNativeTarget "Pods-RavelinEncryptDemoPodsObjC" */ = {
+		7AD64C4C6231D8BAD409C03A8539AA78 /* Build configuration list for PBXNativeTarget "Pods-RavelinEncryptDemoPodsObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E50020A62B78E3505DAA99C90E5B4877 /* Debug */,
-				6BB513CF7CDC56DF892DD251C2D52629 /* Release */,
+				62DF6EBECF10BC41F85D7B4D6A747ACF /* Debug */,
+				FB7515A83FACC654CA112C6B8EA295DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
