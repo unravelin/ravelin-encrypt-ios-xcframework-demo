@@ -14,7 +14,7 @@
 
 Add RavelinEncrypt to your PodFile: 
 ```ruby
-pod 'RavelinEncrypt', '1.1.0', :source => 'https://github.com/unravelin/Specs.git'
+pod 'RavelinEncrypt', '1.1.1', :source => 'https://github.com/unravelin/Specs.git'
 ```
 then, from the command line: `pod install`
 
@@ -24,7 +24,7 @@ Add RavelinEncrypt via Xcode, Add Package Dependency:
 a package manifest is available at:
 'git@github.com:unravelin/ravelin-encrypt-ios-xcframework-distribution.git'
 
-available from version 1.1.0
+SPM support available for versions 1.1.0 and 1.1.1
 
 <img width="497" alt="RavelinEncrypt-Swift-Package-Manager" src="https://user-images.githubusercontent.com/729131/126134013-41d23f63-7c38-42bc-9570-2e95a8383079.png">
 
