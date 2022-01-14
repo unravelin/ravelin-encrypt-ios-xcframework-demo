@@ -6,8 +6,8 @@
         "repositoryURL": "git@github.com:unravelin/ravelin-core-ios-xcframework-distribution.git",
         "state": {
           "branch": null,
-          "revision": "a1803f1fa9ec9278ed035c0108a39d1a0c9ac391",
-          "version": "1.1.0"
+          "revision": "e00d9805939c74863020f20048f9f6d9bde36f55",
+          "version": "1.1.1"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "git@github.com:unravelin/ravelin-encrypt-ios-xcframework-distribution.git",
         "state": {
           "branch": null,
-          "revision": "3221c3f10466131712bc1174c3d942539c50c8c8",
-          "version": "1.1.0"
+          "revision": "92799d81e6856c41903573a507ebab5a58125ccf",
+          "version": "1.1.1"
         }
       }
     ]
