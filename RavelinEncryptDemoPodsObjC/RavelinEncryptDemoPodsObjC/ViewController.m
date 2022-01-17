@@ -56,7 +56,7 @@
     
     // Encrypt customer card details, ready for sending for payment
     NSError *error;
-    NSDictionary *encryptionPayload = [self.ravelinEncrypt encrypt:@"41111111111111" month:@"10" year:@"21" nameOnCard:@"Mr John Doe" error:&error];
+    NSDictionary *encryptionPayload = [self.ravelinEncrypt encrypt:@"41111111111111" month:@"10" year:@"23" nameOnCard:@"Mr John Doe" error:&error];
     if(!error) {
         NSLog(@"Ravelin Encryption payload: %@", encryptionPayload);
     } else {
