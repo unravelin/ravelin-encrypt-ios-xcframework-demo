@@ -14,7 +14,7 @@
 
 Add RavelinEncrypt to your PodFile: 
 ```ruby
-pod 'RavelinEncrypt', '1.1.1', :source => 'https://github.com/unravelin/Specs.git'
+pod 'RavelinEncrypt', '1.1.2', :source => 'https://github.com/unravelin/Specs.git'
 ```
 then, from the command line: `pod install`
 
@@ -24,7 +24,7 @@ Add RavelinEncrypt via Xcode, Add Package Dependency:
 a package manifest is available at:
 'git@github.com:unravelin/ravelin-encrypt-ios-xcframework-distribution.git'
 
-SPM support available for versions 1.1.0 and 1.1.1
+SPM support available from version 1.1.0
 
 <img width="497" alt="RavelinEncrypt-Swift-Package-Manager" src="https://user-images.githubusercontent.com/729131/126134013-41d23f63-7c38-42bc-9570-2e95a8383079.png">
 
@@ -98,7 +98,7 @@ When collecting the card details, we encrypt the values to send using the code m
 // Card details
 NSString *pan = @"41111111111111";
 NSString *month = @"10";
-NSString *year = @"2022";
+NSString *year = @"27";
 NSString *cardHolder = @"Mr John Doe";
 
 // Error handling
@@ -120,7 +120,7 @@ if(!error) {
 ```swift
 var error:NSError? = nil
 
-let encryptionPayload = RVNEncryption.sharedInstance().encrypt("41111111111111", month: "10", year: "10", nameOnCard: "Mr John Doe", error: &error)
+let encryptionPayload = RVNEncryption.sharedInstance().encrypt("41111111111111", month: "10", year: "27", nameOnCard: "Mr John Doe", error: &error)
 
 if let error = error {
     print("Ravelin encryption error \(error.localizedDescription)")
@@ -139,6 +139,7 @@ What follows is a simple end-to-end example of using the Ravelin Framework withi
 #import "ViewController.h"
 #import <UIKit/UIKit.h>
 #import <RavelinEncrypt/RavelinEncrypt.h>
+
 @interface ViewController ()
 @property (strong, nonatomic) RVNEncryption *ravelinEncrypt;
 @end
@@ -147,20 +148,24 @@ What follows is a simple end-to-end example of using the Ravelin Framework withi
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self useEncrypt];
+}
 
+- (void)useEncrypt {
     // Make RavelinEncrypt instance with rsa key
     self.ravelinEncrypt = [RVNEncryption sharedInstance];
-    self.ravelinEncrypt.rsaKey = @"----|----";
-
+    self.ravelinEncrypt.rsaKey = @"----|---------";
+    
     // Encrypt customer card details, ready for sending for payment
     NSError *error;
-    NSDictionary *encryptionPayload = [self.ravelinEncrypt encrypt:@"41111111111111" month:@"10" year:@"20" nameOnCard:@"Mr John Doe" error:&error];
+    NSDictionary *encryptionPayload = [self.ravelinEncrypt encrypt:@"41111111111111" month:@"10" year:@"27" nameOnCard:@"Mr John Doe" error:&error];
     if(!error) {
         NSLog(@"Ravelin Encryption payload: %@", encryptionPayload);
     } else {
         NSLog(@"Ravelin encryption error %@", error.localizedDescription);
     }
 }
+
 @end
 ```
 
@@ -174,12 +179,14 @@ class ViewController: UIViewController {
 
     private var ravelinEncrypt = RVNEncryption.sharedInstance()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        useEncryot()
+    }
+
+    func useEncrypt() {
         // set up ravelin encryption RSA key
-        
         ravelinEncrypt.rsaKey = "----|----"
         
         // Encrypt customer card details, ready for sending for payment

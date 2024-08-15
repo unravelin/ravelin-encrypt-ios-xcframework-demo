@@ -1,25 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "RavelinCore",
-        "repositoryURL": "git@github.com:unravelin/ravelin-core-ios-xcframework-distribution.git",
-        "state": {
-          "branch": null,
-          "revision": "e00d9805939c74863020f20048f9f6d9bde36f55",
-          "version": "1.1.1"
-        }
-      },
-      {
-        "package": "RavelinEncrypt",
-        "repositoryURL": "git@github.com:unravelin/ravelin-encrypt-ios-xcframework-distribution.git",
-        "state": {
-          "branch": null,
-          "revision": "92799d81e6856c41903573a507ebab5a58125ccf",
-          "version": "1.1.1"
-        }
+  "originHash" : "6566cad0b6bbcce4ab876540c37704cac35c0bcf1289702be84761350abea373",
+  "pins" : [
+    {
+      "identity" : "ravelin-encrypt-ios-xcframework-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:unravelin/ravelin-encrypt-ios-xcframework-distribution.git",
+      "state" : {
+        "revision" : "53e8292982546accc2704eaecdc37039f26ecd3b",
+        "version" : "1.1.2"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }

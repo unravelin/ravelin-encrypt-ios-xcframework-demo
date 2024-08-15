@@ -5,8 +5,7 @@ target 'RavelinEncryptDemoPods' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for RavelinCoreDemoPods
-  pod 'RavelinCore', '1.1.1', :source => 'https://github.com/unravelin/Specs.git'
-  pod 'RavelinEncrypt', '1.1.1', :source => 'https://github.com/unravelin/Specs.git'
+  # Pods for RavelinEncryptDemoPods
+  pod 'RavelinEncrypt', '1.1.2', :source => 'https://github.com/unravelin/Specs.git'
 
 end

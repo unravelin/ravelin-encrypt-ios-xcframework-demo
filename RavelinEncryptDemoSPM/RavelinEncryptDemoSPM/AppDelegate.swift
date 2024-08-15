@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  RavelinCoreDemoSPM
+//  RavelinEncryptDemoSPM
 
 import UIKit
 

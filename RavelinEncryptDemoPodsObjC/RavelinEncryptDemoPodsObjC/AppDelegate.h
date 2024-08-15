@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  RavelinCoreDemoPodsObjC
+//  RavelinEncryptDemoPodsObjC
 
 #import <UIKit/UIKit.h>
 

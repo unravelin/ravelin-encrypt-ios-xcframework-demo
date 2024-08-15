@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		C8C2DA0E2671F91300115160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2DA0C2671F91300115160 /* Main.storyboard */; };
 		C8C2DA102671F91600115160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2DA0F2671F91600115160 /* Assets.xcassets */; };
 		C8C2DA132671F91600115160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C2DA112671F91600115160 /* LaunchScreen.storyboard */; };
-		C8C2DA22267209AA00115160 /* RavelinCore in Frameworks */ = {isa = PBXBuildFile; productRef = C8C2DA21267209AA00115160 /* RavelinCore */; };
 		C8E13BD9269F5812008C003C /* UseRavelin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E13BD8269F5812008C003C /* UseRavelin.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C84F18A526A1B46A002517F4 /* RavelinEncrypt in Frameworks */,
-				C8C2DA22267209AA00115160 /* RavelinCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +95,6 @@
 			);
 			name = RavelinEncryptDemoSPM;
 			packageProductDependencies = (
-				C8C2DA21267209AA00115160 /* RavelinCore */,
 				C84F18A426A1B46A002517F4 /* RavelinEncrypt */,
 			);
 			productName = RavelinCoreDemoPods;
@@ -129,7 +126,6 @@
 			);
 			mainGroup = C8C2D9FA2671F91300115160;
 			packageReferences = (
-				C8C2DA20267209AA00115160 /* XCRemoteSwiftPackageReference "ravelin-core-ios-xcframework-distribution" */,
 				C84F18A326A1B46A002517F4 /* XCRemoteSwiftPackageReference "ravelin-encrypt-ios-xcframework-distribution" */,
 			);
 			productRefGroup = C8C2DA042671F91300115160 /* Products */;
@@ -371,16 +367,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:unravelin/ravelin-encrypt-ios-xcframework-distribution.git";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.1.0;
-			};
-		};
-		C8C2DA20267209AA00115160 /* XCRemoteSwiftPackageReference "ravelin-core-ios-xcframework-distribution" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:unravelin/ravelin-core-ios-xcframework-distribution.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.1.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -390,11 +378,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C84F18A326A1B46A002517F4 /* XCRemoteSwiftPackageReference "ravelin-encrypt-ios-xcframework-distribution" */;
 			productName = RavelinEncrypt;
-		};
-		C8C2DA21267209AA00115160 /* RavelinCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C8C2DA20267209AA00115160 /* XCRemoteSwiftPackageReference "ravelin-core-ios-xcframework-distribution" */;
-			productName = RavelinCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
