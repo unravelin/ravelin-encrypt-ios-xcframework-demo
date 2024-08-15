@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/markbrightman/Development/ravelin-core-xcframework/ravelin-encrypt-ios-xcframework-demo/RavelinEncryptDemoPodsObjC/RavelinEncryptDemoPodsObjC.xcodeproj">
+      location = "group:RavelinEncryptDemoPodsObjC.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:RavelinEncryptDemoPodsObjC.xcodeproj">
    </FileRef>
 </Workspace>

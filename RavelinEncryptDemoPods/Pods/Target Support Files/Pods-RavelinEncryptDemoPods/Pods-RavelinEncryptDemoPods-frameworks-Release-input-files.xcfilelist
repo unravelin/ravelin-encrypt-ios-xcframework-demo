@@ -1,3 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-RavelinEncryptDemoPods/Pods-RavelinEncryptDemoPods-frameworks.sh
-${PODS_XCFRAMEWORKS_BUILD_DIR}/RavelinCore/RavelinCore.framework/RavelinCore
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/RavelinEncrypt/RavelinEncrypt.framework/RavelinEncrypt

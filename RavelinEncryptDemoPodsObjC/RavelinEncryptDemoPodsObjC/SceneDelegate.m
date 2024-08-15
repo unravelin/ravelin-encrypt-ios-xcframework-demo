@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.m
-//  RavelinCoreDemoPodsObjC
+//  RavelinEncryptDemoPodsObjC
 
 #import "SceneDelegate.h"
 
